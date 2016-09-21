@@ -57,7 +57,6 @@
 				74B9870E1D92834D0024E5B4 /* Classes */,
 				74B986FC1D9279940024E5B4 /* AppDelegate.swift */,
 				74B986FE1D9279940024E5B4 /* ViewController.swift */,
-				74B987001D9279940024E5B4 /* Main.storyboard */,
 				74B987031D9279940024E5B4 /* Assets.xcassets */,
 				74B987051D9279940024E5B4 /* LaunchScreen.storyboard */,
 				74B987081D9279940024E5B4 /* Info.plist */,
@@ -68,8 +67,8 @@
 		74B9870E1D92834D0024E5B4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				74B987101D9283620024E5B4 /* Home */,
 				74B9870F1D9283580024E5B4 /* Main */,
+				74B987101D9283620024E5B4 /* Home */,
 				74B987121D9283D40024E5B4 /* Follow */,
 				74B987131D9283D40024E5B4 /* Live */,
 				74B987141D9283D40024E5B4 /* Profile */,
@@ -81,6 +80,7 @@
 		74B9870F1D9283580024E5B4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				74B987001D9279940024E5B4 /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -207,6 +207,7 @@
 				74B987011D9279940024E5B4 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		74B987051D9279940024E5B4 /* LaunchScreen.storyboard */ = {

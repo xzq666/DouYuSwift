@@ -14,6 +14,9 @@
 		7404686E1D93AF25007DF366 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404686D1D93AF25007DF366 /* MainViewController.swift */; };
 		740468761D93B6C7007DF366 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740468751D93B6C7007DF366 /* HomeViewController.swift */; };
 		740468791D93C0DF007DF366 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740468781D93C0DF007DF366 /* UIBarButtonItem-Extension.swift */; };
+		7493EEEF1D94BC66001B9A65 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493EEEE1D94BC66001B9A65 /* PageTitleView.swift */; };
+		7493EEF11D94BEC6001B9A65 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493EEF01D94BEC6001B9A65 /* Common.swift */; };
+		7493EEF31D94D507001B9A65 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493EEF21D94D507001B9A65 /* PageContentView.swift */; };
 		74B986FD1D9279940024E5B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B986FC1D9279940024E5B4 /* AppDelegate.swift */; };
 		74B986FF1D9279940024E5B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B986FE1D9279940024E5B4 /* ViewController.swift */; };
 		74B987021D9279940024E5B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B987001D9279940024E5B4 /* Main.storyboard */; };
@@ -29,6 +32,9 @@
 		7404686D1D93AF25007DF366 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
 		740468751D93B6C7007DF366 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		740468781D93C0DF007DF366 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		7493EEEE1D94BC66001B9A65 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		7493EEF01D94BEC6001B9A65 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		7493EEF21D94D507001B9A65 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 		74B986F91D9279940024E5B4 /* DouYuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B986FC1D9279940024E5B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74B986FE1D9279940024E5B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +97,8 @@
 		740468741D93B676007DF366 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7493EEEE1D94BC66001B9A65 /* PageTitleView.swift */,
+				7493EEF21D94D507001B9A65 /* PageContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,9 +156,9 @@
 		74B9870F1D9283580024E5B4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				740468721D93B676007DF366 /* Controller */,
 				740468731D93B676007DF366 /* Model */,
 				740468741D93B676007DF366 /* View */,
+				740468721D93B676007DF366 /* Controller */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -193,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				740468771D93C0BE007DF366 /* Extension */,
+				7493EEF01D94BEC6001B9A65 /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -274,11 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7493EEEF1D94BC66001B9A65 /* PageTitleView.swift in Sources */,
 				740468791D93C0DF007DF366 /* UIBarButtonItem-Extension.swift in Sources */,
 				7404686E1D93AF25007DF366 /* MainViewController.swift in Sources */,
+				7493EEF31D94D507001B9A65 /* PageContentView.swift in Sources */,
 				74B986FF1D9279940024E5B4 /* ViewController.swift in Sources */,
 				74B986FD1D9279940024E5B4 /* AppDelegate.swift in Sources */,
 				740468761D93B6C7007DF366 /* HomeViewController.swift in Sources */,
+				7493EEF11D94BEC6001B9A65 /* Common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
